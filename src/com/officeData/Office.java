@@ -113,7 +113,7 @@ public class Office extends JFrame implements ActionListener {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/office",
                     "root",
-                    "janhavi@2004"
+                    "password"
             );
 
             st = con.createStatement();
